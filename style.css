@@ -1,0 +1,351 @@
+header {
+    background-color: #2f332f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(deskop.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.TeksBerjalan {
+    background-color: grey;
+    font-size: 23px;
+}
+
+h3{
+    text-align: center;
+}
+
+.jadwalpelajaran{
+    display: none;
+    width: 700px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.Jadwal {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgba(0, 0, 0, 0.444);
+    color: rgb(219, 219, 219);
+}
+
+button{
+    font-family: Poppins;
+    cursor:pointer;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 30px;
+}
+
+button:hover {
+    background-color: rgba(red, green, blue, alpha);
+    border: 2px solid rgba(0, 0, 0, 0.386);
+    color: rgb(0, 0, 0);
+}
+
+
+audio{
+    margin-top: 25px;
+    width: 300px;
+}
+.member{
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgba(236, 232, 232, 0.36);
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.member h3 {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+
+
+}
+
+#nama1 div {
+    border: solid;
+    display: inline-block;
+    background-color: antiquewhite  ;
+    margin-top: 30px; 
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 7px;
+    width: 210px;
+    height: auto;
+}
+
+.jadwalpiket {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+hr{
+    border: 1px solid black;
+}
+.jadwalpiket h3 {
+    text-align: center;
+    margin-top: -5%;
+    color: white;
+
+}
+
+#inipiket div {
+    border: solid;
+    display: inline-block;
+    background-color: antiquewhite  ;
+    margin-top: 30px; 
+    margin: left 9px;    
+    padding: 10px;
+    width: 205px;
+    height: auto;
+}
+
+#inipiket div ol li {
+    text-align: left;
+}
+.video {
+    text-align: center;
+    width: 100%;
+    height: 400px;    
+}
+
+.video div  {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.video div video{
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    padding: 25px;
+     background-color: rgba(0, 0, 0, 0.367);  
+}
+
+.video-foto div h3 {
+    color: white;
+}
+
+.foto {
+    text-align: center;
+    width: 100%;
+    height: 300px;    
+}
+
+.foto div  {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+}
+
+.foto div img{
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.367);
+}
+
+.pembungkus-foto div h3 {
+    color: white;
+}
+
+.pembungkus-foto{
+    height: 450px;
+}
+/*-----------------------------------------------------
+-------------------------*/
+
+/*LAPTOP1024*/
+@media screen and (max-width: 1250px) {
+body{
+     background-size:200%;
+}
+#nama1 div {
+    width: 154px;
+    font-size: 12px;
+}
+
+#inipiket div {
+    width: 147px;
+    font-size: 12px;
+}
+.video div video {
+display: inline-block;
+text-align: center;
+width: 418px;
+padding: 25px;
+background-color: rgba(0, 0, 0, 0.367);
+}
+
+.foto div img {
+    display: inline-block;
+    text-align: center;
+    margin-top: -71px;
+    width: 418px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.367);
+}
+
+.pembungkus-foto {
+    height: 300px;
+}
+}
+
+/*-------------------------------------------------------------
+----------------------------*>
+
+/*TABLET*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html{
+        overflow-x: hidden;
+    }
+ body{
+        background: none;
+        background-color: #EAC696;
+}
+
+ header {
+        background-color: #65451F;
+    }
+
+ .TeksBerjalan {
+        background-color:#7658279c;
+    }
+
+h3{
+    text-align: center;
+}
+
+.Jadwal{
+        color: rgba(255, 255, 255, 0.872);
+}
+
+#nama1 div {
+        width: 200px;    
+}
+
+.member{
+        border: 3px solid #0000003b;
+        background-color :#C8AE7D ;
+        margin-top: 100px;
+}
+
+#inipiket div {
+     width: 180px;
+}
+
+.video div video {
+    margin-top: 10px;
+}
+
+.foto div img {
+   margin-top: 0px ; 
+}
+
+.pembungkus-foto{
+     margin-top: 50%;
+}
+}
+
+/*---------------------------------------------
+--------------------*/
+
+/*HANDPHONE*/
+@media screen and (max-width:767px) {
+html{
+    width: 100%;
+}
+    header{
+    background-color: #3C6255;
+    width: 100%;
+    margin-left: -0px;  
+    font-size: 12px;
+}
+
+body{
+    background: none;
+    background-color: #A6BB8D;
+    overflow-x: hidden;
+    
+}
+
+.Jadwal{
+    width: 50%;
+}
+.TeksBerjalan{
+    background-color: #61876E;
+    font-size: 14px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.jadwalpelajaran{
+    width: 100%;
+}
+
+.Jadwal{
+    width: 85%;
+    height: 300px;
+}
+
+.member{
+    width: 80%;
+}
+
+#nama1 div {
+    width: 190px;
+}
+
+#inipiket div{
+    width: 190px;
+}
+
+.video div video{
+    height: 185px;
+    width: 90%;
+    padding: 10px;
+}
+
+.foto div img{
+    height: 185px;
+    width: 90%;
+    margin-top: -4px;
+    padding: 10px;
+}
+
+.pembungkus-foto{
+    margin-top: 60%;
+}
+}
